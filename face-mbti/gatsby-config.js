@@ -4,7 +4,16 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
+// gatsby-config.js
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-typescript`,
+      options: {
+        isTSX: true, // defaults to false
+        jsxPragma: `jsx`, // defaults to "React"
+        allExtensions: true, // defaults to false
+      },
+    },
+  ],
 }
