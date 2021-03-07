@@ -5,6 +5,8 @@ const StyleDivWrapper = styled.div`
     width : 100px;
     height : 100px;
     position : relative;
+    margin-left : auto;
+    margin-right : auto;
 `;
 
 const StyleDiv = styled.div`

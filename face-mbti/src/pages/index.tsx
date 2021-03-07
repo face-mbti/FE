@@ -1,13 +1,19 @@
 import React from "react"
 import Button from '../components/atoms/Button/Button';
 import Loading from '../components/atoms/Loading/Loading';
-import CircleImg from '../components/atoms/Image/CircleImg';
+import ProfileBox from '../components/molecules/ProfileBox/ProfileBox';
 
 export default function Home() {
   return (
     <>
-      <CircleImg src={'../../profileSample.png'} alt="sample" onClick={null} />
-      
+      <ProfileBox 
+        src='../../profileSample.png'
+        alt='sample'
+        onClick={null}
+        title='Jia Lee'
+        description=''
+        color='blue'
+      />
       <Button title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
       <Loading message="wait!"/>
     </>
