@@ -7,6 +7,7 @@ const StyleDivWrapper = styled.div`
     position : relative;
     margin-left : auto;
     margin-right : auto;
+    
 `;
 
 const StyleDiv = styled.div`

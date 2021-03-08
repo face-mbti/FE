@@ -7,7 +7,7 @@ const StyleDiv = styled.div`
     width : 100%;
     height : 100%;
     text-align : center;
-    padding : 2% 2%;
+    padding : 3% 3%;
     color : ${props => props.color || 'black'};
 `;
 

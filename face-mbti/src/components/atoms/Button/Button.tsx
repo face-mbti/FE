@@ -15,7 +15,7 @@ const StyleSize = css`
     css`
         height : 2.25rem;
         width : 4rem;
-        font-size: 1rem;
+        font-size: 0.9rem;
     `}
 
     ${(props: Props) => 
