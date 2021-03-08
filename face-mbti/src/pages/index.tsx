@@ -12,9 +12,14 @@ export default function Home() {
         onClick={null}
         title='Jia Lee'
         description=''
-        color='blue'
+        color='blueB'
       />
-      <Button title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
+      <Button size="large" color="blue" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
+      <Button size="medium" color="blue" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
+      <Button size="small" color="blue" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
+      <Button size="large" color="white" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
+      <Button size="medium" color="white" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
+      <Button size="small" color="white" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
       <Loading message="wait!"/>
     </>
   )

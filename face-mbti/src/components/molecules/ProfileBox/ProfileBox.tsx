@@ -5,7 +5,7 @@ import TextBoard from '../../atoms/TextBoard/TextBoard';
 
 const StyleDiv = styled.div`
     width : 20%;
-    height : 20%;
+    height : 25%;
     background-color : lightgray;
     border-radius : 10%;
     align-items : center;

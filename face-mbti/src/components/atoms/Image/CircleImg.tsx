@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-    //border-image : linear-gradient(to right, #f58529, #FEDA77, #dd2a7b, #8134af);
+
 const StyleDivWrapper = styled.div`
     width : 100px;
     height : 100px;
@@ -40,12 +40,13 @@ const CircleImg : React.FC<Props> = (
         alt,
         onClick,
     }
-) => (
-    <StyleDivWrapper>
-        <StyleDiv>
-            <StyleImg src={src} onClick={onClick} alt={alt} />
-        </StyleDiv>
-    </StyleDivWrapper>
-)
-
+) => {
+    return(
+        <StyleDivWrapper>
+            <StyleDiv>
+                <StyleImg src={src} onClick={onClick} alt={alt} />
+            </StyleDiv>
+        </StyleDivWrapper>
+    )
+}
 export default CircleImg;

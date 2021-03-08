@@ -1,11 +1,9 @@
 import React from 'react';
 import styled, {css} from 'styled-components';
-//import {theme} from '../../styles/theme';
+
 // ToDo : font size 
-const StyleDiv = styled.div.attrs(props => ({
-    type: "text",
-    size: props.size || "1em",
-}))`
+
+const StyleDiv = styled.div`
     width : 100%;
     height : 100%;
     text-align : center;
@@ -19,9 +17,9 @@ interface Props{
     color : string;
 }
 
-const TextBoard : React.FC<Props> = ({ title, size, color,}) => {
+const TextBoard : React.FC<Props> = ({ title, size, color}) => {
     return (
-        <StyleDiv size="2em" color={color}>
+        <StyleDiv color={color}>
             {title}
         </StyleDiv>
     )
