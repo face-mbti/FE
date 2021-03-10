@@ -1,12 +1,12 @@
 import React from "react"
-import Button from '../components/atoms/Button/Button';
+import ElipseButton from '../components/atoms/Button/ElipseButton';
 import Loading from '../components/atoms/Loading/Loading';
-import ProfileBox from '../components/molecules/ProfileBox/ProfileBox';
+import ResultProfileBox from '../components/molecules/ResultProfileBox/ResultProfileBox';
 
 export default function Home() {
   return (
     <>
-      <ProfileBox 
+      <ResultProfileBox 
         src='../../profileSample.png'
         alt='sample'
         onClick={null}
@@ -14,12 +14,12 @@ export default function Home() {
         description=''
         color='blueB'
       />
-      <Button size="large" color="blue" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
-      <Button size="medium" color="blue" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
-      <Button size="small" color="blue" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
-      <Button size="large" color="white" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
-      <Button size="medium" color="white" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
-      <Button size="small" color="white" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
+      <ElipseButton size="large" color="blue" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
+      <ElipseButton size="medium" color="blue" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
+      <ElipseButton size="small" color="blue" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
+      <ElipseButton size="large" color="white" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
+      <ElipseButton size="medium" color="white" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
+      <ElipseButton size="small" color="white" title="click" onClick={null} onMouseEnter={null} onMouseLeave={null} disabled={false}/>
       <Loading message="wait!"/>
     </>
   )
