@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Profile from '../components/organisms/Profile/Profile';
 import Graphs from '../components/organisms/Graphs/Graphs';
 import ResultGraphCircles from '../components/molecules/ResultGraphs/ResultGraphCircles';
+import LogoSet from '../components/molecules/LogoSet/LogoSet';
 
 const StyleDiv = styled.div` 
     background: linear-gradient(123.27deg, #ECECEC 33.33%, #FEECE8 84.38%);
@@ -16,8 +17,8 @@ export default function Home() {
   return (
     <StyleDiv>
       <Profile/>
-
       <Graphs/>
+      <LogoSet/>
     </StyleDiv>
   )
 }
