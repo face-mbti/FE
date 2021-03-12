@@ -4,6 +4,7 @@ import Loading from '../components/atoms/Loading/Loading';
 import ResultProfileBox from '../components/molecules/ResultProfileBox/ResultProfileBox';
 
 export default function Home() {
+
   return (
     <>
       <ResultProfileBox 

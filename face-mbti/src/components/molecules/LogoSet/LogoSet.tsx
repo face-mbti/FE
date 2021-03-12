@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import LogoImg from '../../atoms/Image/LogoImg';
-
+import LogoImg from '../../atoms/Image/LogoImgs';
+import KakaoLogo from '../../atoms/Image/KakaoLogo';
 
 const StyledLogoWrapper = styled.ul`
     list-style : none;
@@ -21,7 +21,7 @@ const StyledLogoWrapper = styled.ul`
 const LogoSet = () => {
     return(
         <StyledLogoWrapper>
-            <LogoImg src='/kakao.png'/>
+            <KakaoLogo/>
             <LogoImg src='/facebook.png'/>
             <LogoImg src='/twitter.png'/>
             <LogoImg src='/instagram.png'/>

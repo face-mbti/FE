@@ -2,7 +2,6 @@ import React from "react"
 import styled from 'styled-components';
 import Profile from '../components/organisms/Profile/Profile';
 import Graphs from '../components/organisms/Graphs/Graphs';
-import ResultGraphCircles from '../components/molecules/ResultGraphs/ResultGraphCircles';
 import LogoSet from '../components/molecules/LogoSet/LogoSet';
 
 const StyleDiv = styled.div` 
@@ -13,7 +12,7 @@ const StyleDiv = styled.div`
 `;
 
 export default function Home() {
-    
+
   return (
     <StyleDiv>
       <Profile/>
